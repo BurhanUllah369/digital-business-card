@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    background-color: #23252C;
+}
+.body {
+    width: 500px;
+    margin: 40px auto 40px;
+    background: #1A1B21;
+    border-radius: 12px;
+}
+.info {
+    text-align: center;
+}
+.info img {
+    width: 500px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px 12px 0 0;
+}
+.info > h1 {
+    margin-top: 30px;
+    font-size: 36px;
+    color: white;
+    font-weight: 700;
+}
+.info > h2 {
+    margin-top: 7px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #F3BF99;
+}
+.info > p {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+}
+.info > button {
+    width: 170px;
+    cursor: pointer;
+}
+.info .email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8;
+    padding: 12px;
+    background-color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    float: left;
+    margin: 30px auto 0 50px;
+}
+.info .linkedin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8;
+    padding: 12px;
+    background-color: #5093E2;
+    font-size: 16px;
+    border-radius: 6px;
+    color: white;
+    margin: 30px 50px 0 auto;
+}
+.info .fa {
+    width: 20px;
+    margin-top: 2px;
+    margin-right: 6px;
+}
+
+
+
+/* About */
+
+
+.about {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+}
+.about > h1 {
+    font-size: 30px;
+}
+.about > p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+
+/* Interests */
+
+
+.interests {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+}
+.interests > h1 {
+    font-size: 30px;
+}
+.interests > p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+
+/* Footer */
+
+.footer {
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    border-radius: 0 0 12px 12px;
+    background-color: #161619;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: auto 50px auto 50px;
+}
+.footer .icon {
+    background-color: #918E9B;
+    padding: 8px 0px;
+    border-radius: 8px;
+    color: #161619;
+    width: 40px;
+}
